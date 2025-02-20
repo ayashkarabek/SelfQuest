@@ -1,0 +1,148 @@
+import pygame
+import pygame.freetype
+
+# Initialize Pygame
+pygame.init()
+
+# Create the screen
+screen = pygame.display.set_mode((800, 400))
+
+# Set title and icon
+pygame.display.set_caption("Self-autonomy Self-determination")
+icon = pygame.image.load('user.png')
+pygame.display.set_icon(icon)
+
+# Load and scale the background image
+background_image = pygame.image.load('dm1.png').convert()
+background_image = pygame.transform.scale(background_image, (800, 400))
+
+# Load the player image and resize it to 64x64 pixels
+player_Img = pygame.image.load('Group 49.png').convert_alpha()
+player_Img = pygame.transform.smoothscale(player_Img, (64, 64))
+PlayerX = 10
+PlayerX_change = 0
+PlayerY = 280
+
+# Function to draw a circle with border and text inside
+def draw_circle_with_text(surface, text, coordX, coordY, clicked):
+    # Define colors
+    YELLOW = (255, 222, 89)
+    BROWN = (181, 117, 8)
+    GREEN_FILL = (0, 191, 99)    # New color for filled circle
+    GREEN_BORDER = (4, 133, 71)  # New color for circle border
+    circle_radius = 15  # 30x30 pixels circle
+    border_width = 2
+    font_size = 18
+
+    center = (coordX, coordY)
+
+    # Change color if clicked
+    if clicked:
+        fill_color = GREEN_FILL
+        border_color = GREEN_BORDER
+    else:
+        fill_color = YELLOW
+        border_color = BROWN
+
+    # Draw filled circle inside with chosen color
+    pygame.draw.circle(surface, fill_color, center, circle_radius)
+
+    # Draw border with chosen color
+    pygame.draw.circle(surface, border_color, center, circle_radius, border_width)
+
+    # Font
+    pygame.freetype.init()
+    font = pygame.freetype.SysFont('Arial', font_size, bold=True)
+
+    # Calculate text position to center it in the circle
+    text_width, text_height = font.get_rect(text)[2:]
+    text_position = (center[0] - text_width // 2, center[1] - text_height // 2)
+
+    # Render text
+    font.render_to(surface, text_position, text, (255, 255, 255))
+
+# Function to draw the level screen for each circle
+def draw_new_screen(surface, circle_index):
+    if circle_index == 0:
+        surface.fill((255, 255, 255))  # White background for circle 0
+        draw_triangle(surface)
+    elif circle_index == 1:
+        surface.fill((200, 200, 200))  # Light gray background for circle 1
+        draw_rectangle(surface)
+    elif circle_index == 2:
+        surface.fill((150, 150, 150))  # Dark gray background for circle 2
+        draw_diamond(surface)
+    elif circle_index == 3:
+        surface.fill((100, 100, 100))  # Even darker gray background for circle 3
+        draw_circle_outline(surface)
+
+    # Draw "Done" button
+    pygame.draw.rect(surface, (0, 255, 0), (700, 350, 80, 30))  # Green button
+    pygame.freetype.init()
+    font = pygame.freetype.SysFont('Arial', 20, bold=True)
+    font.render_to(surface, (705, 355), "Done", (255, 255, 255))  # White text
+
+    pygame.display.update()
+
+# Example shape-drawing functions (replace with your specific shape drawings)
+def draw_triangle(surface):
+    pygame.draw.polygon(surface, (255, 0, 0), [(400, 50), (200, 250), (600, 250)])
+
+def draw_rectangle(surface):
+    pygame.draw.rect(surface, (0, 0, 255), (300, 150, 200, 100))
+
+def draw_diamond(surface):
+    pygame.draw.polygon(surface, (255, 255, 0), [(400, 50), (200, 150), (400, 250), (600, 150)])
+
+def draw_circle_outline(surface):
+    pygame.draw.circle(surface, (0, 255, 255), (400, 200), 50, 3)
+
+# Game loop
+running = True
+current_screen = "main"  # Initial screen state
+clicked_circle_index = -1  # No circle clicked initially
+
+while running:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+        
+        if event.type == pygame.MOUSEBUTTONDOWN:
+            mouse_x, mouse_y = event.pos
+            if current_screen == "main":
+                # Check if a circle is clicked
+                for i, (circle_x, circle_y) in enumerate(circle_centers):
+                    distance = ((mouse_x - circle_x) ** 2 + (mouse_y - circle_y) ** 2) ** 0.5
+                    if distance < 15:
+                        current_screen = "circle_clicked"
+                        clicked_circle_index = i
+                        break
+            elif current_screen == "circle_clicked":
+                # Check if "Done" button is clicked
+                if 700 <= mouse_x <= 780 and 350 <= mouse_y <= 380:
+                    current_screen = "main"
+                    # Change circle color after completing level
+                    draw_circle_with_text(screen, str(clicked_circle_index), circle_centers[clicked_circle_index][0], circle_centers[clicked_circle_index][1], True)
+
+    # Update player position (placeholder)
+    PlayerX += PlayerX_change
+
+    # Clear screen
+    screen.blit(background_image, (0, 0))
+
+    # Draw circles and player on the main screen
+    if current_screen == "main":
+        for i, (circle_x, circle_y) in enumerate(circle_centers):
+            draw_circle_with_text(screen, str(i), circle_x, circle_y, False)
+    # Draw level screen for the clicked circle
+    elif current_screen == "circle_clicked":
+        draw_new_screen(screen, clicked_circle_index)
+
+    # Draw player (placeholder)
+    screen.blit(player_Img, (PlayerX, PlayerY))
+
+    # Update display
+    pygame.display.update()
+
+# Quit Pygame
+pygame.quit()

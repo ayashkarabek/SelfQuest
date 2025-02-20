@@ -1,0 +1,154 @@
+[
+    {
+        "role": "user",
+        "content": "Welcome to level 0. Congratulations on reaching the starting point of your journey. In this level, you'll explore various topics through a series of questions designed to prepare you for the challenges ahead. Get ready to reflect, discover, and have fun. Are you ready to begin? Click the circle 1 to get your first question. Imagine you have unlimited resources for one cause or initiative. What would you choose to support and why?"
+    },
+    {
+        "role": "assistant",
+        "content": "That sounds interesting! Could you share why this particular cause holds special importance to you?"
+    },
+    {
+        "role": "user",
+        "content": "I don't know any specific examples, but I would probably root for some kind of initiative that helps young people, especially young people, to be ambitious with their dreams and whatever they want to achieve. Because I feel like people have really good ideas, but in our generation, it's kind of hard to see that you are actually capable of achieving them. And through social media, for example, we're encouraged to stop trying, because since everything is given to us and our minds are going numb because of all of the social media stuff, I feel like we have to be encouraged to act and to see the value in acting, because there's lots of problems in the world. And I don't see a specific one that should be prioritized before the other ones. For example, climate change is something I'm really worried about, but there's lots of other problems. So something that helps people with ideas solve these problems, because we need new ways to solve them."
+    },
+    {
+        "role": "assistant",
+        "content": "Thank you for your thoughtful response. It sounds like fostering ambition, promoting action and providing problem-solving tools are important to you. Can you share a little more about how you see yourself involved in this kind of initiative?"
+    },
+    {
+        "role": "user",
+        "content": "I think that young people should have the resources to achieve their ideas, but the main point would be to actually encourage them emotionally and just support them to stop being numb to the world and actually like waking up their inner curiosity and ambition to do something with their lives and we're seeing the problems and it's kind of, we have a fatalistic view, so just like making young people see that there's things to do, we can do stuff to change the world, like it's not all hope, it's lost, and then that they can be the ones who help change this. We're giving inspirational speeches, but I feel like some different discourse is needed."
+    },
+    {
+        "role": "assistant",
+        "content": "That's very inspiring! It seems you want to empower young people, awaken their curiosity and stimulate their ambition. You are keen on instilling hope, optimism, and fostering change. Thank you for sharing your perspective and vision. Three key values you've shown here are empowerment, optimism, and change. Click circle 2 to continue with your journey."
+    },
+    {
+        "role": "user",
+        "content": "I think that the main point to achieve a fulfilling life is not what you do in terms of the education you get, the job you get, the money you earn. I think it's more of a perspective thing, so just like to live a fulfilling life one should be in tune with their emotions and with their surroundings and with their own experiences, not trying to block some stuff, not trying to block these negative emotions, just like prioritizing, getting to know oneself better and getting to grow. And from this I feel like everything, everything else comes derived from actually understanding oneself, understanding how one wants to improve, what one wants to do with their lives up to the point where they feel fulfilled. I don't want it to be like a race to actually try to catch this happiness and just like achieving a bunch of stuff that is actually meaningless to one because they think that money will make life more fulfilling, but instead of this trying to find what their emotions or what their actual self wants to achieve and what's actually good for them. And having a good moral base is really important for that and this comes through self perfection, so I think that's the first step and like the step that has to be maintained throughout all of life to actually have a fulfilling life. It doesn't relate that much to the education you get, where you get it, the money you get, it's a whole different topic."
+    },
+    {
+        "role": "assistant",
+        "content": "It's great to see your focus on self-awareness, emotional well-being and personal growth over materialistic accomplishments. Can you share an example from your own life that shaped this perspective?"
+    },
+    {
+        "role": "user",
+        "content": "It's great to see your focus on"
+    },
+    {
+        "role": "assistant",
+        "content": "self-awareness, emotional well-being and personal growth. Can you share how you personally practice these values in your daily life or an event that made you realize the importance of these values?"
+    },
+    {
+        "role": "user",
+        "content": "So, since I was little, I've had this problem when trying to fall asleep. And so I use this time, like I spend like an hour or two a day trying to fall asleep. And so I spend this time thinking. And this has led me to, well, my mom really prioritizes moral values, and she has like encouraged me to see being a good person as my main trait and as a main trait that a person should have. And so now it's what I look for in other people and where I try to achieve myself. I still think I'm not a good person. I still like find lots of lags in my actions and in the establishment of my values. And that's something that kind of would be my main fear and what makes me anxious, mainly because I see that I act badly every day. But I still try and I still feel like I'm improving sometimes. Sometimes I feel like I don't. But I guess I'm still like, at least I'm conscious about it. I don't know any specific experiences and something that like specifically made me realize it. But I feel like the way I grew up and now the way I maintain this mentality through like spending time thinking every day. And right now at RSI, I can't really do it. But back at home, like I prioritize going on walks with my phone turned off just to think about my actions that day. And sometimes it's hard. Sometimes I cry. But at least I know what's going on and I'm conscious of my own life, which I think it's really important."
+    },
+    {
+        "role": "assistant",
+        "content": "Thank you for sharing your story. Your approach towards introspection and self-improvement is truly commendable. Not many people take the time to deeply think about their actions and their impact. Keep doing what you are doing, constant self-reflection and the will to improve oneself is the key to personal growth and fulfillment. \n\nThe top three values you've shown from this conversation are Self-Awareness, Moral Integrity and Personal Growth. \n\nThank you for your honest responses. Click circle 3 when you're ready to continue your journey."
+    },
+    {
+        "role": "user",
+        "content": "There's a part of me that I can't get rid of that just admires people who are highly intelligent and who have achieved a lot in life, but I find myself more and more as time goes on admiring people who are actually good persons and who actually follow the moral values in the way that I would like to do myself. For example, the other day I was with someone and we started talking about other people and this person just stopped the conversation, stopped participating in it because they said that they didn't want to gossip. And it wasn't something I actually was considering to be gossiping, but I feel like that was a really strong way to act because that person didn't even know me that well and having the willingness, the strength to do so in front of people you don't really know that much, I do it sometimes, but maybe seeing it in someone external is really impressive to me. And not only with close people that I admire, but also with celebrities, no not celebrities because you can't really get to know them, but important people I mainly prioritize this. And I see myself wanting to be friends with some specific people and the pattern I see is that they are usually highly intelligent people, amazing people, and they all are good people with noticeable moral bases that I find really, really, really admirable."
+    },
+    {
+        "role": "assistant",
+        "content": "Your admiration for intelligence, achievement, and most importantly, high moral standards in others is commendable. It shows that you value not just success but the path one takes to achieve it. Is there a specific value or moral you hold in the highest regard?"
+    },
+    {
+        "role": "user",
+        "content": "I don't have a specific one, but something that bothers me a lot about myself, and I've tried to end with, and I see that other people kind of achieved beating this, and I admire it a lot, and I'm trying to work on it, is just like lying, or at least putting other people worse to make me look better to other people, or to myself. Just like putting down other people, which I don't do very exaggeratedly, but there are some nuanced ways I act that I feel like kind of lead me to this, and I don't like it at all. And this is both, putting people down and then lying about myself, which is something I usually get the thought to do so, and I find it really annoying for myself, and I'm really trying to beat it."
+    },
+    {
+        "role": "assistant",
+        "content": "It's commendable to see your awareness about the things you desire to improve in yourself. Pursuing truthfulness and respecting others' value are valuable moral qualities. It's great to hear that you are consciously working on them. \n\nFrom our conversation, it is clear that your top values are Self-Awareness, Moral Integrity, and Personal Growth. Thank you for your honest and insightful responses. Click \"Done\" when you're ready to proceed to the next level. Congratulations on completing level 0!"
+    },
+    {
+        "role": "user",
+        "content": "or the expressive and cooperative atmosphere of the drama club performance choose the event that best aligns with your personal values and let's explore why this choice is important to you in ways i don't really like when i'm in a competitive setting so i prefer like something that isn't that competitive and maybe some collaborative thing um drama club isn't one of my hobbies but i feel like it aligns with my values like the values behind drama club of like acting together aligns with my values then science fair if it's a lot aligns with my hobbies obviously um but if it isn't presented as something competitive"
+    },
+    {
+        "role": "assistant",
+        "content": "That's great! It sounds like you appreciate collaboration over competition. Drama club does indeed offer a cooperative atmosphere. Why is this cooperative environment important to you?"
+    },
+    {
+        "role": "user",
+        "content": "For example, your goals might include completing a project on renewable energy, presenting your findings confidently, and collaborating effectively with a partner. Let's outline your objectives to ensure they are clear and achievable. Ideally, what maybe aligns more with my goals is trying to do something applicable to the world. But what aligns more with my preferences ends up being something that isn't really applicable in that direct sense to the world. So I don't really know what area it would be in. I really like physics and math, but that's separate from my values. But I would do some kind of project and not to present it to somewhere competitive, just to share it with people, share it with the world, maybe publish it, not in a competitive setting."
+    },
+    {
+        "role": "assistant",
+        "content": "That's a great approach! Can you set a specific goal related to sharing your project with the world, maintaining a cooperative and non-competitive spirit?"
+    },
+    {
+        "role": "user",
+        "content": "I would say that a way to share my project with the world would be to present it. That would make me grow a lot because I feel like I lack some communication skills, especially regarding the science. And collaboratively, this could be done and also writing. I don't know. Maybe present it is the way I like the most because I like interacting with people."
+    },
+    {
+        "role": "assistant",
+        "content": "Fantastic! Improving communication skills through presenting your project is a valuable goal. Can you think about a goal for your value of self-awareness tied to this project?"
+    },
+    {
+        "role": "user",
+        "content": "I feel like I'm really bad at this, at prioritizing stuff and at facing challenges because I usually give up sometimes when I'm procrastinating. But I think that working with someone can help me with this because it's not pressure, it's just that I want, I'm more motivated and I'm a lot more creative when I'm working with someone. I think that would help me and so I think it's a measure to help me achieve any problem I have later."
+    },
+    {
+        "role": "assistant",
+        "content": "Working collaboratively often brings out the best in us. Collaboration can help with motivation and creativity. When making decisions, remember to consider how the choices align with your personal values of collaboration, communication and self-improvement. Now, imagine you're working on a project with a partner and you both disagree on a particular point, how would you handle such a situation while keeping your values in mind?"
+    },
+    {
+        "role": "user",
+        "content": "I usually panic when I have a problem with time, and so I end up like changing my task and then coming back to it later if it's that I'm stuck, and if it's not that I'm stuck, I just try to work on it as fast as I can, like without losing focus. In a collaborative setting, it could be, I don't really know. If I'm short on time, I end up like working alone in a task, like after discussing it collaboratively, because if I really have to rush, it's better for me. So I feel like that's something I tried in the past, working with people at all times and working alone at all times, and what I've learned is that joining these two together is what works best for me."
+    },
+    {
+        "role": "assistant",
+        "content": "It's great to hear how you've found a balance between working alone and collaborating. Reflect back on a time when you had to rush, was there anything you could've done to prevent that rush?"
+    },
+    {
+        "role": "user",
+        "content": "Yeah, probably organizing myself better and not procrastinating, but that's something I've been trying to fight for a while and I see that it doesn't work, so I have to try and find other ways to approach this problem, but I don't know what else to try."
+    },
+    {
+        "role": "assistant",
+        "content": "You've identified the challenge of procrastination. Consider ways you could improve organization or planning, as these skills could help manage your time more efficiently."
+    },
+    {
+        "role": "user",
+        "content": "Okay."
+    },
+    {
+        "role": "assistant",
+        "content": "Could we explore more about the particular exercises or strategies you find most effective in building your confidence?"
+    },
+    {
+        "role": "user",
+        "content": "I feel like it's just like putting myself out there and trying to present, trying to talk to people, like putting myself like little challenges about this. For example, I had to, I wanted to be pretty social at RSI and what I did was just creating a list of people's names and just forcing myself to have kind of meaningful conversations with all of them. It's a small challenge that helped me get out of my comfort zone and I actually have the motivation to do it."
+    },
+    {
+        "role": "assistant",
+        "content": "It's great that you are stepping out of your comfort zone by setting small challenges for yourself. These mini interpersonal challenges may best serve to build your confidence. Spend some time reflecting on your experiences and the growth you notice."
+    },
+    {
+        "role": "user",
+        "content": "I noticed that now it's when I have one of those conversations and it's like a lot easier and so I feel much more connected to other people so I will be doing this again. I feel much more comfortable socially in just a week."
+    },
+    {
+        "role": "assistant",
+        "content": "That's a great achievement! Seeing improvement in your social comfort level is a significant confidence builder. Reflect on this progress as you continue to set and accomplish personal challenges."
+    },
+    {
+        "role": "user",
+        "content": "I know that support networks are really, really important, and I've had a hard time trying to ask for help and trying to create these networks. I end up playing those when I'm really deep into trouble and I should learn how to ask for help before, but every time I end up asking for help, I have a really good response. So it's just validating even more that the experience is good, so I should just go for it. I know I'm just trying."
+    },
+    {
+        "role": "assistant",
+        "content": "That's a great observation. Recognizing the importance of seeking help earlier is essential. Think about how you can approach seeking help sooner. It's great to see your willingness to learn and grow."
+    },
+    {
+        "role": "user",
+        "content": "I don't have any plans. I'll try to think about it."
+    },
+    {
+        "role": "assistant",
+        "content": "Reflecting on strategies to seek support earlier can help. Consider this as a potential area for your personal growth. Keep learning and growing!"
+    }
+]
