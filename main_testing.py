@@ -166,7 +166,7 @@ level_val = 9;
 def play_text_to_speech(text_to_speak):
     
     client = ElevenLabs(
-    api_key="f7b693441b9361408f2e7c0c2ef721be", # Defaults to ELEVEN_API_KEY
+    api_key="API PASTE", # Defaults to ELEVEN_API_KEY
     )
     
     response = client.text_to_speech.convert(
@@ -183,7 +183,7 @@ def play_text_to_speech(text_to_speak):
 
 def play_text_to_speech(text_to_speak):
     # Eleven Labs API endpoint
-    api_key = "f7b693441b9361408f2e7c0c2ef721be"
+    api_key = "PASTE API FOR "
 
     url = "https://api.elevenlabs.io/v1/text-to-speech/JBFqnCBsd6RMkjVDRZzb/stream"
 
@@ -526,7 +526,7 @@ recording_thread = None
 frames = []
 
 # Set your OpenAI API key
-openai.api_key = "sk-proj-tEgG2Lz9H0r5j7LESL6ET3BlbkFJoQILTcSuiuEg2OPAIwpp"
+openai.api_key = "PASTE API"
 
 # Function to get the next filename in the sequence
 def get_next_filename(prefix="recording", extension=".wav"):
